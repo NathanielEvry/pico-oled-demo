@@ -1,13 +1,16 @@
 # pico-oled-demo
 Practicing with the rp2040 pi pico, and a SSD1306 for general micropython and PIO stuff.
 
-Sure, I'd be happy to help you with a Readme for your `pico-oled-demo` project!
+<p align="center">
+  <img src="img/screen_demo_1.jpg" alt="image" style="max-width: 50%; height: auto;">
+</p>
+
 
 ---
 
-# Pico OLED Demo
+# Pico OLED Demo(s)
 
-This project is a simple demo of using the RP2040 Pi Pico and a SSD1306 OLED display with Micropython. The demo code provides an example of how to initialize the I2C interface, connect to the OLED display, and display text and graphics.
+This project is a simple demo of using the RP2040 Pi Pico and a SSD1306 OLED display with Micropython. The demo code provides an example of how to initialize the I2C interface, connect to the OLED display, and render some interesting framebuff demos.
 
 ## Getting Started
 
@@ -32,6 +35,9 @@ If you haven't already, you will need to install Micropython on your RP2040 Pi P
 2. Connect your RP2040 Pi Pico board to your computer via USB.
 3. Use a terminal program to connect to the board's serial console at a baud rate of 115200. [I'm a big fan of rshell](https://github.com/dhylands/rshell)
 4. Reset the board by pressing the RESET button.
+
+
+## TODO
 5. The OLED should now be doing its thing, with the RESET button having been hijacked to cycle through demos!
 
 
