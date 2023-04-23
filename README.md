@@ -2,11 +2,14 @@
 Practicing with the rp2040 pi pico, and a SSD1306 for general micropython and PIO stuff.
 
 <p align="center">
-  <img src="img/screen_demo_1.jpg" alt="image" style="max-width: 50%; height: auto;">
+  <img src="img/screen_demo_1.jpg" alt="image" style="width: 30%; height: auto;">
 </p>
 
-
 ---
+
+# Try it NOW
+[Wokwi awesome web-hosted Pico2040 simulator🤓](https://wokwi.com/projects/362799539846585345)
+
 
 # Pico OLED Demo(s)
 
