@@ -30,12 +30,19 @@ Connect the SSD1306 OLED display to the RP2040 Pi Pico board as follows:
 If you haven't already, you will need to install Micropython on your RP2040 Pi Pico board. Instructions for doing so can be found in the [official Micropython documentation](https://micropython.org/download/rp2-pico/).
 
 ### Running the Demo
+1. Clone the repo
+2. `cd pico-oled-demo`
+3. `rshell -f rshell.script`
+4. *CTRL*+*D*: to reset the pico and start the program!
+5. *CTRL*+*C*: to stop and *CTRL*+*X* to exit.
 
+This will copy a demo to the pico, then connect you to the REPL
+
+### Running the Demo Manually
 1. Copy the demo code to a file named `main.py` on your RP2040 Pi Pico board.
 2. Connect your RP2040 Pi Pico board to your computer via USB.
 3. Use a terminal program to connect to the board's serial console at a baud rate of 115200. [I'm a big fan of rshell](https://github.com/dhylands/rshell)
 4. Reset the board by pressing the RESET button.
-
 
 ## TODO
 5. The OLED should now be doing its thing, with the RESET button having been hijacked to cycle through demos!
