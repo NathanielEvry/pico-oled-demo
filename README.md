@@ -1,11 +1,15 @@
 # pico-oled-demo
 Practicing with the rp2040 pi pico, and a SSD1306 for general micropython and PIO stuff.
 
-<p align="center">
-  <img src="img/screen_demo_1.jpg" alt="image" style="width: 30%; height: auto;">
+<center> 
+
+## [3d_wireframe_animation.py](./oled-demo-ssd1306/3d_wireframe_animation.py)
+
+<p>
+  <img src="img/spinning_cube.gif" alt="image" style="width: auto; height: auto;">
 </p>
 
----
+</center>
 
 # Try it NOW
 [Wokwi awesome web-hosted Pico2040 simulator🤓](https://wokwi.com/projects/362799539846585345)
