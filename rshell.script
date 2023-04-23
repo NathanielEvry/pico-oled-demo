@@ -1,4 +1,2 @@
-cp oled-demo-ssd1306/many_squares.py /pyboard/
-cp oled-demo-ssd1306/scrolling_words.py /pyboard/main.py
-cp oled-demo-ssd1306/ssd1306.py /pyboard/ssd1306.py
+cp oled-demo-ssd1306/dots_1.py /pyboard/main.py
 repl

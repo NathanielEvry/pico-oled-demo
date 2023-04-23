@@ -15,6 +15,11 @@ Practicing with the rp2040 pi pico, and a SSD1306 for general micropython and PI
 
 This project is a container of demos using the RP2040 Pi Pico and a SSD1306 OLED display with Micropython. The demo code provides an example of how to initialize the I2C interface, connect to the OLED display, and render some interesting framebuff demos.
 
+## [3d_wireframe_1.py](./oled-demo-ssd1306/3d_wireframe_1.py)
+<p align="center">
+  <img src="img/3d_wireframe_1.png" alt="image" style="width: 30%; height: auto;">
+</p>
+
 ## [scrolling_words.py](./oled-demo-ssd1306/scrolling_words.py)
 <p align="center">
   <img src="img/scrolling_words.gif" alt="image" style="width: 30%; height: auto;">

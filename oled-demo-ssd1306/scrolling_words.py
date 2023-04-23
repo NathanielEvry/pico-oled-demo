@@ -16,12 +16,13 @@ import utime
 from machine import I2C, Pin
 from ssd1306 import SSD1306_I2C
 
-SCREEN_HEIGHT = 128
-SCREEN_WIDTH = 64
+
+SCREEN_WIDTH = 128
+SCREEN_HEIGHT = 64
 
 i2c = I2C(0, scl=Pin(1), sda=Pin(0))
 utime.sleep_ms(50)  # delay to setup screen
-oled = SSD1306_I2C(SCREEN_HEIGHT, SCREEN_WIDTH, i2c)
+oled = SSD1306_I2C(SCREEN_WIDTH, SCREEN_HEIGHT, i2c)
 
 
 def sleep(s: int = 0):
